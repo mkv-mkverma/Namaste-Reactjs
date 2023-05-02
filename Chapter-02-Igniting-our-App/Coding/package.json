@@ -1,0 +1,32 @@
+{
+  "name": "coding",
+  "version": "1.0.0",
+  "description": "This is live React course",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkv-mkverma/namaste-reactjs.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Manish Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkv-mkverma/namaste-reactjs/issues"
+  },
+  "homepage": "https://github.com/mkv-mkverma/namaste-reactjs#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 chrome versions"
+  ]
+}
