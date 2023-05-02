@@ -15,9 +15,9 @@
   "author": "Manish Verma",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mkv-mkverma/namaste-reactjs/issues"
+    "url": "https://github.com/chetannada/Namaste-Reactjs.git"
   },
-  "homepage": "https://github.com/mkv-mkverma/namaste-reactjs#readme",
+  "homepage": "https://github.com/chetannada/Namaste-Reactjs.git#readme",
   "devDependencies": {
     "parcel": "^2.8.3",
     "process": "^0.11.10"

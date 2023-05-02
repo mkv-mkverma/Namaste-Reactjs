@@ -17,13 +17,33 @@
 
 ## Installation commands:
 
-- `npm init`
-- `npm i -D parcel`
-- `npm i react`
-- `npm i react-dom`
-- `npx parcel index.html`
-- `npx parcel build index.html`
-- `npx parcel index.html –https`
+```bash
+  npm init
+```
+
+```bash
+  npm i -D parcel
+```
+
+```bash
+  npm i react
+```
+
+```bash
+  npm i react-dom
+```
+
+```bash
+  npx parcel index.html
+```
+
+```bash
+  npx parcel build index.html
+```
+
+```bash
+  npx parcel index.html –https
+```
 
 ## References:
 
