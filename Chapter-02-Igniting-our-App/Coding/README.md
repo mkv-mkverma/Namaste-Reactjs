@@ -34,6 +34,14 @@
 ```
 
 ```bash
+ npm i babel-plugin-transform-remove-console
+```
+
+```bash
+ npm install -D @babel/core
+```
+
+```bash
   npx parcel index.html
 ```
 
