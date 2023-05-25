@@ -1,0 +1,93 @@
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, Arial, Helvetica, sans-serif;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    color: #282c3f;
+    font-family: 300;
+    line-height: 1.6;
+    background-color: #fff;
+}
+.logo{
+    width: 100px;
+}
+.footer{
+    width: auto;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.nav-items{   
+    padding: 0 10px 0;
+    width: auto;
+}
+
+.nav-items > ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-items > ul > li{
+    padding: 40px 10px 0 0;
+    font-size: large;
+    cursor: pointer;
+}
+.card{
+    width: 254px;
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.card>img{
+    width: 200px;
+}
+.card>span{
+    display: flex;
+    justify-content: space-between;
+}
+.card > span > h4{
+    text-align: center;
+}
+.card > span > h4:first-child{
+    display: flex;
+    align-items: center;
+    background-color: rgb(107, 196, 97);
+    padding: 0 5px 0;
+    color: white;
+}
+.card > span > h4:first-child .fa-star{
+    font-size: small;
+    padding: 0 5px 3px 0;
+}
+.bg-green{
+    background-color: #4dc47b;
+}
+.card:hover{
+    border-color: #d3d5df;
+    box-shadow: 0 4px 7px 0 rgba(218,220,230,.6);
+}
+
+.restaurant-list{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 10px;
+
+}
