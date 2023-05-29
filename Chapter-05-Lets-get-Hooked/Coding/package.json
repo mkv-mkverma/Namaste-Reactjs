@@ -1,0 +1,41 @@
+{
+  "name": "coding",
+  "version": "1.0.0",
+  "description": "This is food delivery app",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkv-mkverma/namaste-reactjs.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Manish Kumar Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkv-mkverma/namaste-reactjs/issues"
+  },
+  "homepage": "https://github.com/mkv-mkverma/namaste-reactjs#readme",
+  "browserslist": [
+    "last 2 chrome versions"
+  ],
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  }
+}
