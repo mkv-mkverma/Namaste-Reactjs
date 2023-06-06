@@ -1,0 +1,200 @@
+/* Select all CSS */
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, Arial, Helvetica, sans-serif;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    color: #282c3f;
+    font-family: 300;
+    line-height: 1.6;
+    background-color: #fff;
+}
+
+
+/* create global variable with :root selector */
+:root {
+    --header-bg-color: rgb(1, 163, 144);
+    --footer-bg-color: rgb(1, 163, 144);
+    --text-color: #000;
+    --light-green: #00ad1d;
+    --dark-green: #016034;
+    --orange: #d97919;
+    --light-red: rgb(236, 56, 56);
+  }
+
+/* Header CSS */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+
+}
+
+.logo{
+    width: 100px;
+}
+
+
+.nav-items{   
+    padding: 0 10px 0;
+    width: auto;
+}
+
+.nav-items > ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-items > ul > li{
+    padding: 0px 20px 0 0;
+    font-size: large;
+    cursor: pointer;
+}
+
+/* Body CSS */
+.search-container {
+    text-align: center;
+    max-width: 100%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-container .search-input {
+    width: 40%;
+    box-sizing: border-box;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 14px 15px 14px 20px;
+    border: 1px solid #aabcca;
+    border-right: 0;
+    color: #000000;
+    outline: none;
+  }
+  
+  .search-container .search-btn {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #0768b3;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    color: #ffffff;
+    padding: 15px 22px;
+    margin-left: -4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  .search-container .search-btn:hover {
+    background-color: #016034;
+  }
+
+  .card{
+    width: 254px;
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.card>img{
+    width: 200px;
+}
+.card>span{
+    display: flex;
+    justify-content: space-between;
+}
+.card > span > h4{
+    text-align: center;
+}
+.card > span > h4:first-child{
+    display: flex;
+    align-items: center;
+    background-color: rgb(107, 196, 97);
+    padding: 0 5px 0;
+    color: white;
+}
+.card > span > h4:first-child .fa-star{
+    font-size: small;
+    padding: 0 5px 3px 0;
+}
+.card:hover{
+    border-color: #d3d5df;
+    box-shadow: 0 4px 7px 0 rgba(218,220,230,.6);
+}
+.restaurant-list{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 10px;
+
+}
+/* footer CSS */
+.footer{
+    width: auto;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+}
+
+/*Shimmer CSS */
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+  }
+  .shimmer-card {
+    flex-basis: 250px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-color: #d3d5df;
+    box-shadow: 0 4px 7px 0 rgb(218 220 230 / 60%);
+  }
+  .shimmer-title {
+    width: 60%;
+    margin-top: 10px;
+  }
+  .shimmer-tags {
+    width: 80%;
+    margin-top: 4px;
+  }
+  .shimmer-details {
+    width: 100%;
+    margin-top: 18px;
+  }
+  .shimmer-container .shimmer-img {
+    height: 300px;
+    width: 230px;
+  }
+  
+  /*Animation to Shimmer Component Cards */
+  .stroke {
+    height: 15px;
+    background: #777;
+  }
+  .animate {
+    animation: shimmer 3s;
+    animation-iteration-count: infinite;
+    background: linear-gradient(to right, #e6e6e6 5%, #cccccc 25%, #e6e6e6 35%);
+    background-size: 1000px 100%;
+  }
+  @keyframes shimmer {
+    from {
+      background-position: -1000px 0;
+    }
+    to {
+      background-position: 1000px 0;
+    }
+  }
